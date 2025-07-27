@@ -7,7 +7,7 @@ def sum(ls,n=9):
         for j in range(i+1):
             if(ls[i]+ls[j]==n):
                 tr.append((ls[i],ls[j]))
-                print(set(tr))
+    print(set(tr))
 sum(ls)
 
 

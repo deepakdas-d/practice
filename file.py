@@ -3,7 +3,7 @@
 
 with open('sample.txt','r')as f:
     read=f.read()
-    #print(read)
+    print(read)
 
 # C=read.replace('i','$')
 # c= read.replace('I','$')
