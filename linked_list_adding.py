@@ -7,12 +7,12 @@ class ListNode:
 
 class Problem:
       def list_to_linkedlist(self,arr):
-            head=ListNode(arr[0])
-            temp=head
+            self.head=ListNode(arr[0])
+            temp=self.head
             for i in range(1,len(arr)):
                   temp.next=ListNode(arr[i])
                   temp=temp.next
-            return head 
+            return self.head 
 ############################################################################## 
       def addtwonum(self,l1,l2):
             l=ListNode(self)
