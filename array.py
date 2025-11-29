@@ -1,5 +1,6 @@
 # arr = [5, 1, 5, 20, 5,1]
-arr=[1,2,3,4,5]
+# arr=[1,2,3,4,5,6,7,8,9]
+arr = [20, 30, 40, 50, 60, 70]
 # Print the third element
 # print(len(arr))
 # print(arr[1])
@@ -107,10 +108,11 @@ def binary_search(arr,val):
 
         
 
-print(binary_search(arr,5))
-print(binary_search(arr,3))
-
-
+# print(binary_search(arr,5))
+# print(binary_search(arr,7))
+# print(binary_search(arr,1))
+# print(binary_search(arr,0))
+print(binary_search(arr, 30))
     
 
 
