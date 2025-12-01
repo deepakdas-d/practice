@@ -1,5 +1,5 @@
 nums = [2, 7, 11, 15]
-target = 13
+target = 9
 
 def twosum(nums, target):
     length = len(nums)
@@ -8,7 +8,8 @@ def twosum(nums, target):
             if nums[i] + nums[j] == target:
                 return [i, j]
 
-    return "not found"   
+    return "not found"  
+
 
 output= twosum(nums,target)
 print(output)
